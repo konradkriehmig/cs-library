@@ -1,0 +1,13 @@
+1 Introduction to DoC Systems (COMPM0101)                           (Year 1)
+2 Introduction to University Mathematics for JMC (MATH40009)
+3 Logic and Reasoning (40012)
+4 Discrete Mathematics, Logic & Reasoning (40018)
+5 Analysis I (MATH40002)
+6 Calculus and Applications (MATH40004)
+7 Linear Algebra and Groups for JMC (MATH40012)
+8 Graphs and Algorithms 40008 
+9 Software Engineering Design (50002)                               (Year 2)
+8 Operating Systems (50004)
+9 Probability and Statistics for JMC (MATH50013)
+10 Compilers (50007.2)
+11 Designing for Real People (Intro to Law, 50010.2)
