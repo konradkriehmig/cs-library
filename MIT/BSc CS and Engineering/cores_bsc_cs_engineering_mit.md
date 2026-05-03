@@ -1,4 +1,3 @@
-| # | Course Name | Course Number |
 |---|---|---|
 | 1 | Introduction to Programming and Computer Science | 6.1000 |
 | 2 | Introduction to Computer Science Programming in Python and Introduction to Computational Thinking and Data Science | 6.100A & 6.100B |
