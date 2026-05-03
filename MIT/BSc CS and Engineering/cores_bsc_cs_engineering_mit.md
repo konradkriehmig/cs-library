@@ -1,3 +1,4 @@
+| | | |
 |---|---|---|
 | 1 | Introduction to Programming and Computer Science | 6.1000 |
 | 2 | Introduction to Computer Science Programming in Python and Introduction to Computational Thinking and Data Science | 6.100A & 6.100B |
@@ -10,7 +11,7 @@
 | 9 | Computer Systems Engineering or Operating System Engineering or Database Systems | 6.1800 or 6.1810 or 6.5831 |
 | 10 | Introduction to Low-level Programming in C and Assembly | 6.1903 |
 | 11 | Computation Structures | 6.1910 |
-| 12 | **One of the following Math courses:** | |
+| 12 | **One Math course:** | |
 | 12a | Introduction to Probability | 6.3700 |
 | 12b | Introduction to Inference | 6.3800 |
 | 12c | Introduction to Probability and Statistics | 18.05 |
