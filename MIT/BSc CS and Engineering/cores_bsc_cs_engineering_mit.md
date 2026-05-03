@@ -1,6 +1,6 @@
 
-Introduction to Programming and Computer Science    |   6.1000
-Introduction to Computer Science Programming in Python and Introduction to Computational Thinking and Data Science	|   6.100A & 6.100B
+1. Introduction to Programming and Computer Science    |   6.1000
+2. Introduction to Computer Science Programming in Python and Introduction to Computational Thinking and Data Science	|   6.100A & 6.100B
 Introduction to Computer Science Programming in Python and Introduction to Computational Science and Engineering	|   6.100A & 16.C20[J]
 Fundamentals of Programming |   6.1010	
 Software Construction   |   6.1020	
