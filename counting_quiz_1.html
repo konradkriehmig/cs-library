@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Combinatorics Quiz II</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0e0e0e;
+    --surface: #161616;
+    --border: #2a2a2a;
+    --text: #e8e8e8;
+    --muted: #666;
+    --accent: #c8f542;
+    --wrong: #ff4d4d;
+    --mono: 'IBM Plex Mono', monospace;
+    --sans: 'IBM Plex Sans', sans-serif;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1.5rem 5rem;
+  }
+
+  header {
+    width: 100%;
+    max-width: 680px;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  h1 {
+    font-family: var(--mono);
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  #score-display {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+
+  #score-display span { color: var(--text); }
+
+  .quiz-container {
+    width: 100%;
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 1.75rem;
+    position: relative;
+    transition: border-color 0.2s;
+  }
+
+  .card.correct { border-color: var(--accent); }
+  .card.wrong { border-color: var(--wrong); }
+
+  .q-num {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+  }
+
+  .q-text {
+    font-size: 0.975rem;
+    line-height: 1.65;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+    color: var(--text);
+  }
+
+  .answer-row {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+  }
+
+  input[type="text"] {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+    width: 130px;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+
+  input[type="text"]:focus { border-color: var(--accent); }
+
+  .check-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .check-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  .verdict {
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    margin-top: 0.75rem;
+    letter-spacing: 0.05em;
+    min-height: 1.1rem;
+  }
+
+  .verdict.correct { color: var(--accent); }
+  .verdict.wrong { color: var(--wrong); }
+
+  #summary {
+    display: none;
+    width: 100%;
+    max-width: 680px;
+    margin-top: 2rem;
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem;
+  }
+
+  #summary p {
+    font-family: var(--mono);
+    font-size: 1rem;
+    color: var(--muted);
+  }
+
+  #summary p span { color: var(--accent); font-size: 1.3rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Combinatorics II</h1>
+  <div id="score-display">score <span id="correct-count">0</span> / <span id="total-count">0</span></div>
+</header>
+
+<div class="quiz-container" id="quiz"></div>
+<div id="summary"><p>Final score: <span id="final-score"></span></p></div>
+
+<script>
+const questions = [
+  {
+    text: "How many integers from 1 to 300 (inclusive) are divisible by 2, 3, or 5?",
+    answer: 220
+  },
+  {
+    text: "In how many ways can 6 people be seated around a circular table, if rotations of the same arrangement are considered identical?",
+    answer: 120
+  },
+  {
+    text: "How many distinct arrangements of the letters in the word MISSISSIPPI are there?",
+    answer: 34650
+  },
+  {
+    text: "A group of 4 men and 4 women must form a committee of 4 people. How many such committees contain at least 2 women?",
+    answer: 46
+  },
+  {
+    text: "How many 4-digit positive integers have digits that are strictly increasing from left to right?",
+    answer: 126
+  },
+  {
+    text: "In how many ways can 8 identical balls be distributed among 3 distinct boxes, with no restriction on how many each box may hold?",
+    answer: 45
+  },
+  {
+    text: "How many 5-card hands from a standard 52-card deck contain exactly two pairs (two cards of one rank, two of another rank, and one card of a third rank)?",
+    answer: 123552
+  },
+  {
+    text: "How many distinct arrangements of 3 identical red balls and 4 identical blue balls in a row are there?",
+    answer: 35
+  },
+  {
+    text: "How many 3-element subsets of {1, 2, 3, 4, 5, 6, 7, 8} contain no two consecutive integers?",
+    answer: 20
+  },
+  {
+    text: "A class of 10 students is split into two unlabelled groups of 5. In how many ways can this be done?",
+    answer: 126
+  }
+];
+
+let answered = 0;
+let correct = 0;
+const totalEl = document.getElementById("total-count");
+const correctEl = document.getElementById("correct-count");
+const totalCount = questions.length;
+totalEl.textContent = totalCount;
+
+const quiz = document.getElementById("quiz");
+
+questions.forEach((q, i) => {
+  const card = document.createElement("div");
+  card.className = "card";
+  card.dataset.index = i;
+
+  card.innerHTML = `
+    <div class="q-num">Q${i + 1} / ${totalCount}</div>
+    <div class="q-text">${q.text}</div>
+    <div class="answer-row">
+      <input type="text" inputmode="numeric" placeholder="answer" id="input-${i}" />
+      <button class="check-btn" onclick="check(${i})">Check</button>
+    </div>
+    <div class="verdict" id="verdict-${i}"></div>
+  `;
+
+  quiz.appendChild(card);
+
+  document.getElementById(`input-${i}`).addEventListener("keydown", e => {
+    if (e.key === "Enter") check(i);
+  });
+});
+
+function check(i) {
+  const input = document.getElementById(`input-${i}`);
+  const verdict = document.getElementById(`verdict-${i}`);
+  const card = document.querySelector(`.card[data-index="${i}"]`);
+  const btn = card.querySelector(".check-btn");
+
+  if (input.disabled) return;
+
+  const val = parseInt(input.value.trim(), 10);
+  if (isNaN(val)) {
+    verdict.textContent = "Enter a number.";
+    verdict.className = "verdict wrong";
+    return;
+  }
+
+  input.disabled = true;
+  btn.disabled = true;
+  btn.style.opacity = "0.3";
+  answered++;
+
+  if (val === questions[i].answer) {
+    verdict.textContent = "Correct.";
+    verdict.className = "verdict correct";
+    card.classList.add("correct");
+    correct++;
+  } else {
+    verdict.textContent = `Wrong. The answer is ${questions[i].answer}.`;
+    verdict.className = "verdict wrong";
+    card.classList.add("wrong");
+  }
+
+  correctEl.textContent = correct;
+
+  if (answered === totalCount) {
+    const summary = document.getElementById("summary");
+    document.getElementById("final-score").textContent = `${correct} / ${totalCount}`;
+    summary.style.display = "block";
+    summary.scrollIntoView({ behavior: "smooth" });
+  }
+}
+</script>
+</body>
+</html>
