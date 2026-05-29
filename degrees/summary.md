@@ -10,16 +10,16 @@ The relevance is based on how many programs include that subject.
 | 5 | Foundations | Object-Oriented Programming | 9 |
 | 6 | | Functional Programming | 7 |
 | 7 | | Low-Level Programming | 9 |
-| 8 | | Digital Logic & Circuits | 8 |
-| 9 | Theory | Data Structures and Algorithms | 10 |
-| 10 | | Theory of Computation & Formal Languages | 8 |
-| 11 | | Compilers | 7 |
-| 12 | Systems | Computer Architecture | 9 |
-| 13 | | Operating Systems | 9 |
-| 14 | | Networks | 8 |
-| 15 | | Databases | 8 |
-| 16 | | Parallel & Concurrent Programming | 8 |
-| 17 | Engineering | System Design | 8 |
+| 8 | Theory | Data Structures and Algorithms | 10 |
+| 9 | | Theory of Computation & Formal Languages | 8 |
+| 10 | | Compilers | 7 |
+| 11 | Systems | Computer Architecture | 9 |
+| 12 | | Operating Systems | 9 |
+| 13 | | Networks | 8 |
+| 14 | | Databases | 8 |
+| 15 | | Parallel & Concurrent Programming | 8 |
+| 16 | Engineering | System Design | 8 |
+| 17 | | Digital Logic & Circuits | 8 |
 | 18 | | Control Theory | 5 |
 | 19 | | Signal Processing | 5 |
 | 20 | ML | Optimisation | 8 |
