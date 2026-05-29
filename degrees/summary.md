@@ -1,4 +1,5 @@
 This list covers contents that are largely largely cover the material taught in the core courses of competitive undergraduate computer science courses.
+The relevance is based on how many programs include that subject.
 
 | No | Bucket | Course | Relevance |
 |---|---|---|---|
