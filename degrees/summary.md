@@ -7,7 +7,7 @@ The relevance is based on how many programs include that subject.
 | 2 | | Linear Algebra | 9 |
 | 3 | | Discrete Maths | 9 |
 | 4 | | Probability & Stats | 9 |
-| 5 | **Theory** | DSAA | 10 |
+| 5 | **Theory** | DSA | 10 |
 | 6 | | Theory of Computation & Formal Languages | 8 |
 | 7 | | Compilers | 7 |
 | 8 | **Hardware** | Digital Logic & Circuits | 8 |
