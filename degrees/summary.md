@@ -17,10 +17,10 @@ The relevance is based on how many programs include that subject.
 | 10 | **Systems** | Operating Systems | 9 |
 | 11 | | Networks | 8 |
 | 12 | | Databases | 8 |
-| 13 | | Parallel & Concurrent Programming | 8 |
 | 14 | | System Design | 8 |
 | 15 | **Programming** | Low-Level Programming | 9 |
 | 16 | | Object-Oriented Programming | 9 |
+| 13 | | Parallel & Concurrent Programming | 8 |
 | 17 | | Functional Programming | 7 |
 | 20 | **ML**  | Applied Statistics | 8 |
 | 21 | | Optimisation | 8 |
