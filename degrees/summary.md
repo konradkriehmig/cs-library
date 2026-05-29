@@ -3,7 +3,7 @@ The relevance is based on how many programs include that subject.
 
 | No | Bucket | Course | Relevance |
 |---|---|---|---|
-| 1 | **Pure Maths** | Calculus & Analysis | 9 |
+| 1 | **Math Basics** | Calculus & Analysis | 9 |
 | 2 | | Linear Algebra | 9 |
 | 3 | | Discrete Mathematics | 9 |
 | 4 | | Probability & Statistics | 9 |
