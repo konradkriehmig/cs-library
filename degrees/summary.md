@@ -1,4 +1,4 @@
-This list covers contents that are largely largely cover the material taught in the core courses of competitive undergraduate computer science courses.
+This list provides an overview the material taught in core modules of competitive undergraduate computer science programs.
 The relevance is based on how many programs include that subject.
 
 | No | Bucket | Course | Relevance |
