@@ -3,7 +3,7 @@ The relevance is based on how many programs include that subject.
 
 | No | Bucket | Course | Relevance |
 |---|---|---|---|
-| 1 | **Mathematics** | Calculus & Analysis | 9 |
+| 1 | **Pure Maths** | Calculus & Analysis | 9 |
 | 2 | | Linear Algebra | 9 |
 | 3 | | Discrete Mathematics | 9 |
 | 4 | | Probability & Statistics | 9 |
@@ -20,8 +20,8 @@ The relevance is based on how many programs include that subject.
 | 15 | **Programming** | Low-Level Programming | 9 |
 | 16 | | Object-Oriented Programming | 9 |
 | 17 | | Functional Programming | 7 |
-| 18 | **Applied Mathematics** | Control Theory | 5 |
+| 18 | **Applied Maths** | Control Theory | 5 |
 | 19 | | Signal Processing | 5 |
-| 20 | **ML**  | Optimisation | 8 |
-| 21 | | Applied Statistics | 8 |
+| 20 | **ML**  | Applied Statistics | 8 |
+| 21 | | Optimisation | 8 |
 | 22 | | Neural Networks | 8 |
