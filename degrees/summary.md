@@ -22,6 +22,6 @@ The relevance is based on how many programs include that subject.
 | 17 | | Functional Programming | 7 |
 | 18 | **Applied Mathematics** | Control Theory | 5 |
 | 19 | | Signal Processing | 5 |
-| 20 | | Optimisation | 8 |
+| 20 | **ML**  | Optimisation | 8 |
 | 21 | | Applied Statistics | 8 |
-| 22 | **ML** | Neural Networks | 8 |
+| 22 | | Neural Networks | 8 |
