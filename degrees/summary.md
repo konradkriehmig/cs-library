@@ -24,4 +24,4 @@ The relevance is based on how many programs include that subject.
 | 19 | | Signal Processing | 5 |
 | 20 | **ML**  | Applied Statistics | 8 |
 | 21 | | Optimisation | 8 |
-| 22 | | Neural Networks | 8 |
+| 22 | | Neural Networks | 8 | 
