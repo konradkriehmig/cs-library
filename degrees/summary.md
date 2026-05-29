@@ -1,4 +1,4 @@
-This list provides an overview the material taught in core modules of competitive undergraduate computer science programs.
+This list provides an overview over the material taught in core modules of competitive undergraduate computer science programs.
 The relevance is based on how many programs include that subject.
 
 | No | Bucket | Course | Relevance |
