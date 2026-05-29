@@ -7,9 +7,6 @@ The relevance is based on how many programs include that subject.
 | 2 | | Linear Algebra | 9 |
 | 3 | | Discrete Mathematics | 9 |
 | 4 | | Probability & Statistics | 9 |
-| 5 | Foundations | Object-Oriented Programming | 9 |
-| 6 | | Functional Programming | 7 |
-| 7 | | Low-Level Programming | 9 |
 | 8 | Theory | Data Structures and Algorithms | 10 |
 | 9 | | Theory of Computation & Formal Languages | 8 |
 | 10 | | Compilers | 7 |
@@ -18,7 +15,10 @@ The relevance is based on how many programs include that subject.
 | 13 | | Networks | 8 |
 | 14 | | Databases | 8 |
 | 15 | | Parallel & Concurrent Programming | 8 |
-| 16 | Engineering | System Design | 8 |
+| 16 | Engineering |Object-Oriented Programming | 9 | 
+| 5 | | System Design | 8 |
+| 6 | | Functional Programming | 7 |
+| 7 | | Low-Level Programming | 9 |
 | 17 | | Digital Logic & Circuits | 8 |
 | 18 | | Control Theory | 5 |
 | 19 | | Signal Processing | 5 |
