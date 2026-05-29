@@ -10,7 +10,7 @@ This list covers contents that are largely largely cover the material taught in 
 | 6 | | Functional Programming | 7 |
 | 7 | | Low-Level Programming | 9 |
 | 8 | | Digital Logic & Circuits | 8 |
-| 9 | Theory | Algorithms & Data Structures | 10 |
+| 9 | Theory | Data Structures and Algorithms | 10 |
 | 10 | | Theory of Computation & Formal Languages | 8 |
 | 11 | | Compilers | 7 |
 | 12 | Systems | Computer Architecture | 9 |
@@ -21,6 +21,6 @@ This list covers contents that are largely largely cover the material taught in 
 | 17 | Engineering | System Design | 8 |
 | 18 | | Control Theory | 5 |
 | 19 | | Signal Processing | 5 |
-| 20 | Applied | Optimisation | 8 |
+| 20 | ML | Optimisation | 8 |
 | 21 | | Applied Statistics | 8 |
 | 22 | | Neural Networks | 8 |
