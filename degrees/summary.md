@@ -3,25 +3,25 @@ The relevance is based on how many programs include that subject.
 
 | No | Bucket | Course | Relevance |
 |---|---|---|---|
-| 1 | Mathematics | Calculus & Analysis | 9 |
+| 1 | **Mathematics** | Calculus & Analysis | 9 |
 | 2 | | Linear Algebra | 9 |
 | 3 | | Discrete Mathematics | 9 |
 | 4 | | Probability & Statistics | 9 |
-| 8 | Theory | Data Structures and Algorithms | 10 |
-| 9 | | Theory of Computation & Formal Languages | 8 |
-| 10 | | Compilers | 7 |
-| 11 | Systems | Computer Architecture | 9 |
-| 12 | | Operating Systems | 9 |
-| 13 | | Networks | 8 |
-| 14 | | Databases | 8 |
-| 15 | | Parallel & Concurrent Programming | 8 |
-| 16 | Engineering |Object-Oriented Programming | 9 | 
-| 5 | | System Design | 8 |
-| 6 | | Functional Programming | 7 |
-| 7 | | Low-Level Programming | 9 |
-| 17 | | Digital Logic & Circuits | 8 |
-| 18 | | Control Theory | 5 |
+| 5 | **Theory** | Data Structures & Algorithms | 10 |
+| 6 | | Theory of Computation & Formal Languages | 8 |
+| 7 | | Compilers | 7 |
+| 8 | **Hardware** | Digital Logic & Circuits | 8 |
+| 9 | | Computer Architecture | 9 |
+| 10 | **Systems** | Operating Systems | 9 |
+| 11 | | Networks | 8 |
+| 12 | | Databases | 8 |
+| 13 | | Parallel & Concurrent Programming | 8 |
+| 14 | | System Design | 8 |
+| 15 | **Programming** | Low-Level Programming | 9 |
+| 16 | | Object-Oriented Programming | 9 |
+| 17 | | Functional Programming | 7 |
+| 18 | **Applied Mathematics** | Control Theory | 5 |
 | 19 | | Signal Processing | 5 |
-| 20 | ML | Optimisation | 8 |
+| 20 | | Optimisation | 8 |
 | 21 | | Applied Statistics | 8 |
-| 22 | | Neural Networks | 8 |
+| 22 | **ML** | Neural Networks | 8 |
