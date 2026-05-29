@@ -12,6 +12,8 @@ The relevance is based on how many programs include that subject.
 | 7 | | Compilers | 7 |
 | 8 | **Hardware** | Digital Logic & Circuits | 8 |
 | 9 | | Computer Architecture | 9 |
+| 18 | | Control Theory | 5 |
+| 19 | | Signal Processing | 5 |
 | 10 | **Systems** | Operating Systems | 9 |
 | 11 | | Networks | 8 |
 | 12 | | Databases | 8 |
@@ -20,8 +22,6 @@ The relevance is based on how many programs include that subject.
 | 15 | **Programming** | Low-Level Programming | 9 |
 | 16 | | Object-Oriented Programming | 9 |
 | 17 | | Functional Programming | 7 |
-| 18 | **Hardware** | Control Theory | 5 |
-| 19 | | Signal Processing | 5 |
 | 20 | **ML**  | Applied Statistics | 8 |
 | 21 | | Optimisation | 8 |
 | 22 | | Neural Networks | 8 | 
