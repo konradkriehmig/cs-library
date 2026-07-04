@@ -4,7 +4,7 @@ This list provides an overview over the material taught in core modules of compe
 The relevance is based on how many programs include that subject. I have structured this repo based on this list and made put notiononal credits behind each course 
 
 
-| # | Topic | Course | Credits |
+| # | Topic | Course | Credits | |
 |---|---|---|---|---|
 | 1 | **Math Basics** | Calculus & Analysis | 6 | 
 | 2 | | Linear Algebra | 6 |
