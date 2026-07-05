@@ -20,11 +20,12 @@ The relevance is based on how many programs include that subject. I have structu
 | 12 | | Functional Programming | 5 |
 | 13 | **Hardware** | Digital Logic & Circuits | 6 |
 | 14 | | Computer Architecture | 6 |
-| 15 | | Control Theory | 4 |
-| 16 | | Signal Processing | 4 |
-| 17 | **ML** | Applied Stats | 6 |
-| 18 | | Optimisation | 6 |
-| 19 | | Neural Networks | 5 |
-| 20 | **Theory** | Compilers | 5 |
-| 21 | | Theory of Computation & Formal Languages | 6 |
-| 22 | | Cryptography | 6 |
+| 15 | | Mechanics, Electricity, and Magnetism | 6 |
+| 16 | | Control Theory | 4 |
+| 17 | | Signal Processing | 4 |
+| 18 | **ML** | Applied Stats | 6 |
+| 19 | | Optimisation | 6 |
+| 20 | | Neural Networks | 5 |
+| 21 | **Theory** | Compilers | 5 |
+| 22 | | Theory of Computation & Formal Languages | 6 |
+| 23 | | Cryptography | 6 |
