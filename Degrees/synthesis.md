@@ -4,7 +4,7 @@ The relevance is based on how many programs include that subject.
 
 | # | Topic | Course | Credits | Relevance for me
 |---|---|---|---|---|
-| 1 | **Math Basics** | Calculus & Analysis | 6 | 
+| 1 | **Math Basics** | Analysis | 6 | 
 | 2 | | Linear Algebra | 6 |
 | 3 | | Discrete Maths | 6 |
 | 4 | | Probability & Stats | 6 |
