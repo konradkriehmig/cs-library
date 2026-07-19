@@ -2,8 +2,8 @@
 
 ### Databases
 
-SQL vs NoSQL — when would you choose one over the other?
-What is database indexing, and why does it speed up reads but slow down writes?
+SQL vs NoSQL — when would you choose one over the other?  
+What is database indexing, and why does it speed up reads but slow down writes?  
 What's the difference between horizontal and vertical scaling?
 What is sharding? What are common sharding strategies (range-based, hash-based)?
 What is database replication? Master-slave vs master-master?
