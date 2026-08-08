@@ -9,6 +9,7 @@ Input:
 [[-3,5], [3,5]],
 [[-5,1], [6,-6]]]
 expected: True
+
 ![alt text](image-1.png)
 
 
@@ -17,6 +18,6 @@ Test case 2
 Input:
 [[[1,8], [9,-4]],
 [[-8,-1], [9,-3]]]
-Expected:
-False
+Expected: False
+
 ![alt text](image.png)
