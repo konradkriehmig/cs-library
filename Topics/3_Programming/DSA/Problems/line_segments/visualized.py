@@ -23,6 +23,6 @@ def visualize_two_sides(case):
         ys = [0, line[0][1],line[1][1], 0, -line[0][1], -line[1][1]]
         ax.fill(xs, ys, alpha=0.3)
 
-draw_lines(cases[1])
-visualize_two_sides(cases[1])
+draw_lines(cases[0])
+# visualize_two_sides(cases[1])
 plt.show()
