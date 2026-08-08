@@ -6,8 +6,8 @@ Input:
 [[4,4], [6,1]],
 [[8,1], [8,-3]],
 [[-3,5], [3,5]],
-[[-5,1], [6,-6]]]
-expected: True
+[[-5,1], [6,-6]]]  
+Expected: True
 
 ![alt text](image-1.png)
 
@@ -15,7 +15,7 @@ expected: True
 #### Test case 2
 Input:
 [[[1,8], [9,-4]],
-[[-8,-1], [9,-3]]]
+[[-8,-1], [9,-3]]]  
 Expected: False
 
 ![alt text](image.png)
