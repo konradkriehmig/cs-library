@@ -1,4 +1,4 @@
-A list of popular interview problems that might not be available on Leetcode.
+A list of real interview problems that might not be available on Leetcode (gathered from my experience):
 
 - Tetris Game
 - Even digit counter
