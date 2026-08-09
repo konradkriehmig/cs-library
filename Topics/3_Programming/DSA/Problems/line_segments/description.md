@@ -19,3 +19,7 @@ Input:
 Expected: False
 
 ![alt text](image.png)
+
+<img width="511" height="517" alt="Image" src="https://github.com/user-attachments/assets/c4dbd679-c7e9-43d8-803a-c81b87a06a7f" />
+
+<img width="521" height="529" alt="Image" src="https://github.com/user-attachments/assets/14123f0c-8151-4c33-97d7-ae236aaea830" />
