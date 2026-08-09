@@ -9,7 +9,7 @@ Input:
 [[-5,1], [6,-6]]]  
 Expected: True
 
-<img width="511" height="517" alt="Image" src="https://github.com/user-attachments/assets/c4dbd679-c7e9-43d8-803a-c81b87a06a7f" />
+<img width="521" height="529" alt="Image" src="https://github.com/user-attachments/assets/14123f0c-8151-4c33-97d7-ae236aaea830" />
 
 
 #### Test case 2
@@ -18,5 +18,4 @@ Input:
 [[-8,-1], [9,-3]]]  
 Expected: False
 
-<img width="521" height="529" alt="Image" src="https://github.com/user-attachments/assets/14123f0c-8151-4c33-97d7-ae236aaea830" />
-
+<img width="511" height="517" alt="Image" src="https://github.com/user-attachments/assets/c4dbd679-c7e9-43d8-803a-c81b87a06a7f" />
