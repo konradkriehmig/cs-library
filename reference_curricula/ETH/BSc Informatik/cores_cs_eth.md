@@ -1,0 +1,19 @@
+Einführung in die Programmierung (7 KP)
+Algorithmen und Datenstrukturen (7 KP)
+Lineare Algebra (7 KP)
+Diskrete Mathematik (7 KP)
+
+Parallele Programmierung (7 KP)
+Algorithmen und Wahrscheinlichkeit (7 KP)
+Analysis I (7 KP)
+Digital Design and Computer Architecture (7 KP)
+
+Analysis II (5 KP)
+Theoretische Informatik (7 KP)
+Systemnahe Programmierung und Rechnerarchitektur (7 KP)
+Numerische Methoden für Computer Science (7 KP)
+
+Wahrscheinlichkeit und Statistik (5 KP)
+Computer Netzwerke (7 KP)
+Datenmodellierung und Datenbanken (7 KP)
+Formale Methoden und Funktionale Programmierung (7 KP)
