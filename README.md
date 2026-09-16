@@ -1,5 +1,5 @@
-### cs curriculum  
-|  |   |
+### made up cs curriculum from top global cs programs incl. MIT, TsingHua, TUM
+|   |   |
 |---|---|
 | **Math Basics** | Probability & Stats |
 | | Linear Algebra |
