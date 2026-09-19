@@ -1,4 +1,4 @@
-### made up cs curriculum with influence from top uni programs
+### made up cs curriculum similar to top uni programs
 |   |   |
 |---|---|
 | **Math Basics** | Analysis |
