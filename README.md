@@ -1,7 +1,7 @@
 ### made up cs curriculum similar to top uni programs
 |   |   |
 |---|---|
-| **Math Basics** | Analysis |
+| **Math** | Analysis |
 | | Discrete Maths |
 | | Linear Algebra |
 | | Probability & Stats |
