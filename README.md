@@ -1,4 +1,4 @@
-### made up cs curriculum from top global cs programs incl. MIT, TsingHua, TUM
+### made up cs curriculum with influence from top uni programs
 |   |   |
 |---|---|
 | **Math Basics** | Analysis |
