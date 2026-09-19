@@ -1,5 +1,5 @@
 ## Made up cs curriculum similar to top uni programs.
-|   |   |
+|   |   | 
 |---|---|
 | **Math** | Analysis |
 | | Discrete Maths |
