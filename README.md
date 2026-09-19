@@ -1,10 +1,10 @@
 ### made up cs curriculum from top global cs programs incl. MIT, TsingHua, TUM
 |   |   |
 |---|---|
-| **Math Basics** | Probability & Stats |
-| | Linear Algebra |
+| **Math Basics** | Analysis |
 | | Discrete Maths |
-| | Analysis |
+| | Linear Algebra |
+| | Probability & Stats |
 | **ML** | Neural Networks |
 | | Applied ML and Optimisation |
 | **Software** | DSA |
