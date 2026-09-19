@@ -18,7 +18,8 @@
 | | Electric Circuit Analysis
 | | Signal Processing |
 | | Control Theory |
-| | Electrodynamics
+| | Electrodynamics |
 | | Mechanics |
+
 ordered from maths to physics
 
