@@ -11,8 +11,8 @@
 | | Functional and Object-Oriented Programming |
 | | Theory of Computation & Formal Languages |
 | **Systems** | Data Processing |
-| | OS |
 | | Networks |
+| | OS |
 | | Compilers & Language Design |
 | **Hardware** | Computer Architecture |
 | | Digital Logic Design |
