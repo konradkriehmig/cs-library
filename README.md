@@ -7,18 +7,19 @@
 | | Analysis |
 | **Software** | DSA |
 | | Functional and Object-Oriented Programming |
+| | Theory of Computation & Formal Languages |
 | **Systems** | Data Processing |
 | | OS |
 | | Networks |
 | | Compilers & Language Design |
 | **ML** | Neural Networks |
 | | Applied ML and Optimisation |
-| | MLOps |
 | **Hardware** | Computer Architecture |
 | | Digital Logic Design |
-| | Circuit Analysis & Electronics
+| | Electrodynamics
+| | Electric Circuit Analysis
 | | Signal Processing |
 | | Control Theory |
-| | Basics of Physics |
-| **Theory** | Theory of Computation & Formal Languages |
-| | Cryptography |
+| | Mechanics |
+
+
