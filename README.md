@@ -5,6 +5,8 @@
 | | Linear Algebra |
 | | Discrete Maths |
 | | Analysis |
+| **ML** | Neural Networks |
+| | Applied ML and Optimisation |
 | **Software** | DSA |
 | | Functional and Object-Oriented Programming |
 | | Theory of Computation & Formal Languages |
@@ -12,8 +14,6 @@
 | | OS |
 | | Networks |
 | | Compilers & Language Design |
-| **ML** | Neural Networks |
-| | Applied ML and Optimisation |
 | **Hardware** | Computer Architecture |
 | | Digital Logic Design |
 | | Electrodynamics
