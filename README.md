@@ -16,10 +16,10 @@
 | | Compilers & Language Design |
 | **Hardware** | Computer Architecture |
 | | Digital Logic Design |
-| | Electrodynamics
 | | Electric Circuit Analysis
 | | Signal Processing |
 | | Control Theory |
+| | Electrodynamics
 | | Mechanics |
 
 
