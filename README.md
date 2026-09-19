@@ -8,7 +8,6 @@
 | **ML** | Neural Networks |
 | | Applied ML and Optimisation |
 | **Software** | DSA |
-| | Functional and Object-Oriented Programming |
 | | Theory of Computation |
 | **Systems** | Data Processing |
 | | Networks |
