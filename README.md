@@ -7,8 +7,8 @@
 | | Probability & Stats |
 | **ML** | Neural Networks |
 | | Applied ML and Optimisation |
-| **Software** | DSA |
-| | Theory of Computation |
+| **Software** | Theory of Computation |
+| | DSA |
 | **Systems** | Data Processing |
 | | Networks |
 | | OS |
