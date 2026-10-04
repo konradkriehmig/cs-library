@@ -21,7 +21,7 @@
 
 Ordered from maths to physics.
 
-|   hi  | 
+|   |   | 
 |---|---|
 | **Physics Track** | Electromagnetism |
 | | Mechanics |
