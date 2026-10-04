@@ -19,13 +19,13 @@
 | | Electric Circuit Analysis
 | | Signal Processing |
 | | Control Theory |
+| | Electromagnetism |
+| | Mechanics |
 
 *Ordered from maths to physics.
 
 |   |   | 
 |---|---|
-| **Physics Track** | Electromagnetism |
-| | Mechanics |
-| | Thermodynamics & Statistical Mechanics |
+| **Physics Track** | Thermodynamics & Statistical Mechanics |
 | | Relativity |
 | | Quantum Mechanics |
