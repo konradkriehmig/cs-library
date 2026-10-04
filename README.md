@@ -22,7 +22,7 @@
 | | Signal Processing |
 | | Control Theory |
 
-Ordered from maths to physics.
+*Ordered from maths to physics
 
 ## Track
 
