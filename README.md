@@ -1,4 +1,4 @@
-# Made up cs curriculum similar to top uni programs.
+# Made up cs curriculum similar to top uni programs.*
 
 |   |   | 
 |---|---|
@@ -20,7 +20,7 @@
 | | Signal Processing |
 | | Control Theory |
 
-*Ordered from maths to physics
+*Ordered from maths to physics.
 
 |   |   | 
 |---|---|
