@@ -18,11 +18,11 @@
 | | Electric Circuit Analysis
 | | Signal Processing |
 | | Control Theory |
+
+Ordered from maths to physics.
+
 | **Physics Track** | Electromagnetism |
 | | Mechanics |
 | | Thermodynamics & Statistical Mechanics |
 | | Relativity |
 | | Quantum Mechanics |
-
-Ordered from maths to physics.
-
