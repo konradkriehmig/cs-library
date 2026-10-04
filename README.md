@@ -1,4 +1,7 @@
-## Made up cs curriculum similar to top uni programs.
+# Made up cs curriculum similar to top uni programs.
+
+## Core
+
 |   |   | 
 |---|---|
 | **Math** | Analysis |
@@ -21,9 +24,11 @@
 
 Ordered from maths to physics.
 
+## Track
+
 |   |   | 
 |---|---|
-| **Physics Track** | Electromagnetism |
+| **Physics** | Electromagnetism |
 | | Mechanics |
 | | Thermodynamics & Statistical Mechanics |
 | | Relativity |
